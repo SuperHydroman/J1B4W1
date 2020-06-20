@@ -1,7 +1,708 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6ba8894-dc44-4475-bd90-c93d03dfa621" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/.idea/medewerkers_in_MVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/WireFrame.rp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ErrorController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ManegeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/core.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/manege.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/model/ManegeModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/create-breed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/delete-breed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/index-breed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/update-breed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/create-reservation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/delete-reservation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/index-reservations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/update-reservation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/templates/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/templates/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/controller/EmployeeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/controller/EmployeeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/model/EmployeeModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/model/EmployeeModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/update.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="J1B4W1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/model/ManegeModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1798">
+              <caret line="598" column="11" selection-start-line="598" selection-start-column="11" selection-end-line="598" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ManegeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>//</find>
+      <find>count</find>
+      <find>Count</find>
+      <find>checkFOrName</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/update.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-create.php" />
+        <option value="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/delete.php" />
+        <option value="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/model/EmployeeModel.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-delete.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-index.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-update.php" />
+        <option value="$USER_HOME$/Desktop/School/DVC Gorinchem/Toetsen/J1B3 - Toetsen/kassa/php/datalayer.php" />
+        <option value="$USER_HOME$/Desktop/School/DVC Gorinchem/Toetsen/J1B3 - Toetsen/kassa/php/index.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/breed_create.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/index-breed.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/update-breed.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/delete-breed.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/index.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/delete.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/public/css/style.css" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/index-breed.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/add-reservation.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/reservations.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/update.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/templates/header.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/index-reservations.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/update-reservation.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/delete-reservation.php" />
+        <option value="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/templates/header.php" />
+        <option value="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/controller/EmployeeController.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/create.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/create-breed.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/model/ManegeModel.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ManegeController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="954" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="LABS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="LABS" type="462c0819:PsiDirectoryNode" />
+              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="LABS" type="462c0819:PsiDirectoryNode" />
+              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="LABS" type="462c0819:PsiDirectoryNode" />
+              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="LABS" type="462c0819:PsiDirectoryNode" />
+              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="LABS" type="462c0819:PsiDirectoryNode" />
+              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="LABS" type="462c0819:PsiDirectoryNode" />
+              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="LABS" type="462c0819:PsiDirectoryNode" />
+              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="manege" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="manege" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="manege" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="breeds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="manege" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="horses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="manege" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="reservations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="manege" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
+              <item name="Manege" type="462c0819:PsiDirectoryNode" />
+              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/School/DVC Gorinchem/J1B3W7 - 9" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\J1B4W1\Manege\medewerkers_in_mvc\view\manege\pages\reservations" />
+      <recent name="C:\xampp\htdocs\J1B4W1\Manege\medewerkers_in_mvc\view\manege\pages\breeds" />
+      <recent name="C:\Users\gvdhe\Desktop\School\DVC Gorinchem\Toetsen\J1B3 - Toetsen\kassa" />
+      <recent name="C:\Users\gvdhe\Desktop\School\DVC Gorinchem\Toetsen\J1B3 - Toetsen\kassa\php" />
+      <recent name="C:\xampp\htdocs\J1B4W1\Manege\medewerkers_in_mvc\view\manege\pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6ba8894-dc44-4475-bd90-c93d03dfa621" name="Default Changelist" comment="" />
+      <created>1590414008874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590414008874</updated>
+      <workItem from="1590414010024" duration="954000" />
+      <workItem from="1590482512621" duration="6365000" />
+      <workItem from="1590500041153" duration="964000" />
+      <workItem from="1590567359610" duration="3224000" />
+      <workItem from="1590577205998" duration="9255000" />
+      <workItem from="1591082879332" duration="634000" />
+      <workItem from="1591136794514" duration="132000" />
+      <workItem from="1591136949528" duration="3000" />
+      <workItem from="1591137091820" duration="28000" />
+      <workItem from="1591606062847" duration="29000" />
+      <workItem from="1591606092720" duration="21000" />
+      <workItem from="1591606131759" duration="3122000" />
+      <workItem from="1591690842883" duration="22000" />
+      <workItem from="1591691423797" duration="940000" />
+      <workItem from="1591782801393" duration="752000" />
+      <workItem from="1591783594424" duration="7016000" />
+      <workItem from="1592210428856" duration="1978000" />
+      <workItem from="1592294941736" duration="1264000" />
+      <workItem from="1592387539396" duration="2611000" />
+      <workItem from="1592393262502" duration="599000" />
+      <workItem from="1592468532797" duration="4938000" />
+      <workItem from="1592519739195" duration="7227000" />
+      <workItem from="1592587600960" duration="7387000" />
+      <workItem from="1592684908877" duration="11118000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="70583000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988938" visible="true" weight="0.20824412" />
+      <window_info id="Structure" order="1" sideWeight="0.5011062" side_tool="true" weight="0.20770878" />
+      <window_info id="Favorites" order="2" sideWeight="0.5011062" side_tool="true" weight="0.20770878" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32964602" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Floobits" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32964602" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/School/DVC Gorinchem/Toetsen/J1B3 - Toetsen/kassa/php/datalayer.php" />
+    <entry file="file://$USER_HOME$/Desktop/School/DVC Gorinchem/Toetsen/J1B3 - Toetsen/kassa/index.php" />
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/templates/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#8#14#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/School/DVC Gorinchem/J1B3W7 - 9/LABS/vormgeving/includes/characterInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/School/DVC Gorinchem/J1B3W7 - 9/LABS/vormgeving/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/School/DVC Gorinchem/J1B3W7 - 9/LABS/vormgeving/includes/datalayer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/delete-breed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ErrorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="101" lean-forward="true" selection-start-line="4" selection-start-column="101" selection-end-line="4" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/School/DVC Gorinchem/J1B3W7 - 9/OPDRACHT/Planningstool/pages/games.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/School/DVC Gorinchem/J1B3W7 - 9/OPDRACHT/Planningstool/pages/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/School/DVC Gorinchem/J1B3W7 - 9/OPDRACHT/Planningstool/pages/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1798" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/School/DVC Gorinchem/J1B3W7 - 9/OPDRACHT/Planningstool/pages/gameInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" lean-forward="true" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/model/EmployeeModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/School/DVC Gorinchem/J1B3W7 - 9/OPDRACHT/Planningstool/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/index-breed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="238" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/update-breed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="79" lean-forward="true" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/index-reservations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="194" selection-start-line="26" selection-start-column="194" selection-end-line="26" selection-end-column="194" />
+          <folding>
+            <element signature="e#4#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2682">
+          <caret line="149" column="18" selection-start-line="149" selection-start-column="18" selection-end-line="149" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/delete-reservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/update-reservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/core.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/controller/EmployeeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/create-breed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/create-reservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ManegeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/model/ManegeModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1798">
+          <caret line="598" column="11" selection-start-line="598" selection-start-column="11" selection-end-line="598" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

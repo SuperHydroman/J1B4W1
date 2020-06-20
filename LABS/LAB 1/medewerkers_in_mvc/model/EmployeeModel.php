@@ -68,19 +68,96 @@ function getEmployee($id){
  }
 
 function createEmployee($data){
-    // Maak hier de code om een medewerker toe te voegen
+    try {
+        $conn=openDatabaseConnection();
+        $sql = "INSERT INTO employees (name, age) VALUES (:name, :age)";
+        $stmt = $conn->prepare($sql);
+        $stmt->bindParam(":name", $data['name']);
+        $stmt->bindParam(":age", $data['age']);
+        $stmt->execute();
+    }
+    catch(PDOException $e) {
+        echo "Connection failed: " . $e->getMessage();
+    }
+
+    $conn = null;
 
  }
 
 
  function updateEmployee($data){
-    echo "test";
-    // Maak hier de code om een medewerker te bewerken
+     try {
+         $conn=openDatabaseConnection();
+         $sql = "UPDATE `employees` SET `name`=:name,`age`=:age WHERE `id`=:id";
+         $stmt = $conn->prepare($sql);
+         $stmt->bindParam(":id", $data['id']);
+         $stmt->bindParam(":name", $data['name']);
+         $stmt->bindParam(":age", $data['age']);
+         $stmt->execute();
+     }
+     catch(PDOException $e) {
+         echo "Connection failed: " . $e->getMessage();
+     }
+
+     $conn = null;
  }
 
  function deleteEmployee($id){
-    // Maak hier de code om een medewerker te verwijderen
+     try {
+         $conn=openDatabaseConnection();
+         $sql = "DELETE FROM `employees` WHERE `id`=:id";
+         $stmt = $conn->prepare($sql);
+         $stmt->bindParam(":id", $id);
+         $stmt->execute();
+     }
+     catch(PDOException $e) {
+         echo "Connection failed: " . $e->getMessage();
+     }
+
+     $conn = null;
  }
 
 
+ function validation($data, &$result, &$err) {
+     $name = $age = "";
+
+     $result = true;
+     $err = [];
+
+     if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+         if (empty($data["name"])) {
+             $err['nameErr'] = "This field is required";
+             $result = false;
+         } else {
+             $name = test_input($data["name"]);
+             // check if name only contains letters and whitespace
+             if (!preg_match("/^[a-zA-Z ]*$/", $name)) {
+                 $err['nameErr'] = "Only letters and white space allowed";
+                 $result = false;
+             }
+         }
+
+         if (empty($data["age"])) {
+             $err['ageErr'] = "This field is required";
+             $result = false;
+         } else {
+             $age = test_input($data["age"]);
+             // check if name only contains letters and whitespace
+             if (!preg_match("/^[0-9 ]*$/", $age)) {
+                 $err['ageErr'] = "Only letters and white space allowed";
+                 $result = false;
+             }
+         }
+     }
+
+     return ["name"=>$name, "age"=>$age];
+ }
+
+function test_input($data) {
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
 ?>

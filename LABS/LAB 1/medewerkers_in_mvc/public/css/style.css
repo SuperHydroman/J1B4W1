@@ -23,6 +23,10 @@ input{
     width: 300px;
 }
 
+input[type="submit"] {
+    margin-left: 105px
+}
+
 nav>ul{
     padding:0;
 }
@@ -39,9 +43,11 @@ nav>ul>li>a{
 }
 
 footer{
-   text-align: center;
+    text-align: center;
 }
 
 span.error{
     color:red;
 }
+
+
