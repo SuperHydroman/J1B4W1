@@ -1,20 +1,16 @@
-<?php
-$users = getAllUsers();
-$horses = getAllHorses();
-?>
 <h1>Een reservering bewerken</h1>
-<form name="create" method="post" action="<?= htmlspecialchars("../reservations_update")?>">
-    <input type="hidden" name="id" value="<?=$id?>">
+<form name="update" method="post" action="<?= htmlspecialchars("../reservations_update")?>">
+    <input type="hidden" name="id" value="<?=$data['reservation']['id']?>">
 
     <label for="user">Kies een ruiter:</label>
     <select id="user" name="user">
         <option>------ Please select a rider ------</option>
         <?php
 
-        foreach($users as $key) {
+        foreach($data['users'] as $key) {
             echo '<option ';
 
-            if ($key['id'] === $user) {
+            if ($key['id'] === $data['reservation']['user']) {
                 echo 'selected';
             }
 
@@ -30,10 +26,10 @@ $horses = getAllHorses();
         <option>----- Please select a horse -----</option>
         <?php
 
-        foreach($horses as $key) {
+        foreach($data['horses'] as $key) {
             echo '<option ';
 
-            if ($key['id'] === $horse) {
+            if ($key['id'] === $data['reservation']['horse']) {
                 echo 'selected';
             }
 
@@ -45,7 +41,7 @@ $horses = getAllHorses();
     <br>
 
     <label for="hours">Tijd in uren:</label>
-    <input type="number" min="1" max="5" id="hours" name="hours" value="<?=$hours?>" placeholder="Tijd in uren">
+    <input type="number" min="1" max="5" id="hours" name="hours" value="<?=$data['reservation']['hours']?>" placeholder="Tijd in uren">
 
     <br>
 

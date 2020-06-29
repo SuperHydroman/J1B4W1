@@ -1,9 +1,7 @@
 <h1>Overzicht van personen</h1>
 <?php
 
-$amount = countUsers();
-
-if ($amount['Users'] > 0) {
+if (count($data) > 0) {
     echo '<table>',
             '<tr>',
                 '<th>Naam</th>',

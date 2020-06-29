@@ -514,23 +514,6 @@ function getReservation($id) {
     return $result;
 }
 
-function getReservationData() {
-    try {
-        $conn=openDatabaseConnection();
-
-        $stmt = $conn->prepare("SELECT hs.* FROM `horses` AS hs LEFT JOIN `reservations` rv ON hs.id=rv.horse");
-        $stmt->execute();
-
-        $result = $stmt->fetchAll();
-
-    }
-    catch(PDOException $e){
-        echo "Connection failed: " . $e->getMessage();
-    }
-    $conn = null;
-    return $result;
-}
-
 function createReservation($data) {
     try {
         $conn=openDatabaseConnection();
@@ -758,12 +741,24 @@ function userValidation($data, &$result, &$err) {
 }
 
 function reservationsValidation($data, &$result, &$err) {
-    $user = $horse = $hours = "";
+    $id = $user = $horse = $hours = "";
 
     $result = true;
     $err = [];
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+        if (empty($data["id"])) {
+            $err['id'] = "This field is required";
+            $result = false;
+        } else {
+            $id = test_input($data["id"]);
+            // check if name only contains letters and whitespace
+            if (!preg_match("/^[0-9]*$/", $id)) {
+                $err['id'] = "Only letters and white space allowed";
+                $result = false;
+            }
+        }
 
         if (empty($data["user"])) {
             $err['userErr'] = "This field is required";
@@ -802,7 +797,7 @@ function reservationsValidation($data, &$result, &$err) {
         }
     }
 
-    return ["user"=>$user, "horse"=>$horse, "hours"=>$hours];
+    return ["id" => $id, "user"=>$user, "horse"=>$horse, "hours"=>$hours];
 }
 
 ?>

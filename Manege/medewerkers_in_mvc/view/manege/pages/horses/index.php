@@ -1,9 +1,7 @@
 <h1>Overzicht van de paarden</h1>
 <?php
 
-$amount = countHorses();
-
-if ($amount['Horses'] > 0) {
+if (count($data) > 0) {
     echo '<table>',
             '<tr>',
                 '<th>Naam</th>',

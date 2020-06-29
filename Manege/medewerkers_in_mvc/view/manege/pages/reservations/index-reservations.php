@@ -1,11 +1,7 @@
 <h1>Overzicht van de reserveringen<span class="smallMoneyReminder">Dit kost &euro;55,- per uur.</span></h1>
 <?php
 
-$amount = countReservations();
-
-$defaultprice = 55;
-
-if ($amount['Reservations'] > 0) {
+if (count($data) > 0) {
     echo '<table>',
     '<tr>',
     '<th>Ruiter</th>',
@@ -18,7 +14,7 @@ if ($amount['Reservations'] > 0) {
         $horse = getSpecificHorse($key['horse']);
         $user = getSpecificUser($key['user']);
 
-        $price = $key['hours'] * 55;
+        $price = $key['hours'] * DEFAULT_PRICE;
 
         echo '<tr>',
             '<td>'.$user['name'].'</td>',

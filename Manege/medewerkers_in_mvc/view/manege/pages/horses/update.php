@@ -1,16 +1,9 @@
-<?php
-
-$types = getAllTypes();
-$breeds = getAllBreeds();
-
-?>
-
 <h1>Een paard bewerken</h1>
 <form name="update" method="post" action="<?= htmlspecialchars("../update") ?>">
-    <input type="hidden" name="id" value="<?=$id?>">
+    <input type="hidden" name="id" value="<?=$data['horse']['id']?>">
 
     <label for="name">Naam:</label>
-    <input type="text" id="name" name="name" value="<?=$name?>">
+    <input type="text" id="name" name="name" value="<?=$data['horse']['name']?>">
 
     <br>
 
@@ -19,10 +12,10 @@ $breeds = getAllBreeds();
         <option>------ Please select a type ------</option>
         <?php
 
-        foreach($types as $key) {
+        foreach($data['types'] as $key) {
             echo '<option ';
 
-            if ($key['type'] === $type) {
+            if ($key['type'] === $data['horse']['type']) {
                 echo 'selected';
             }
 
@@ -35,7 +28,7 @@ $breeds = getAllBreeds();
     <br>
 
     <label for="age">Leeftijd:</label>
-    <input type="text" id="age" name="age" value="<?=$age?>">
+    <input type="text" id="age" name="age" value="<?=$data['horse']['age']?>">
 
     <br>
 
@@ -44,10 +37,10 @@ $breeds = getAllBreeds();
         <option>----- Please select a breed -----</option>
         <?php
 
-        foreach($breeds as $key) {
+        foreach($data['breeds'] as $key) {
             echo '<option ';
 
-            if ($key['name'] === $breed) {
+            if ($key['name'] === $data['horse']['breed']) {
                 echo 'selected';
             }
 
@@ -60,7 +53,7 @@ $breeds = getAllBreeds();
     <br>
 
     <label for="withers_height">Schofthoogte:</label>
-    <input type="text" id="withers_height" name="withers_height" value="<?=$withers_height?> cm">
+    <input type="text" id="withers_height" name="withers_height" value="<?=$data['horse']['withers_height']?> cm">
 
     <br>
 

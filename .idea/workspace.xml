@@ -2,52 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6ba8894-dc44-4475-bd90-c93d03dfa621" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/.idea/medewerkers_in_MVC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/WireFrame.rp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ErrorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ManegeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/core.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/manege.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/model/ManegeModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/public/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/create-breed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/delete-breed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/index-breed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/update-breed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/create-reservation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/delete-reservation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/index-reservations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/update-reservation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/users/user-update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/templates/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/templates/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/controller/EmployeeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/controller/EmployeeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/model/EmployeeModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/model/EmployeeModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ManegeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ManegeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/model/ManegeModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/model/ManegeModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/index-reservations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/index-reservations.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,11 +21,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/templates/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/model/ManegeModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1798">
-              <caret line="598" column="11" selection-start-line="598" selection-start-column="11" selection-end-line="598" selection-end-column="11" />
+            <state relative-caret-position="9252">
+              <caret line="514" column="1" selection-start-line="514" selection-start-column="1" selection-end-line="514" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/index-reservations.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding>
+                <element signature="e#4#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -72,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ManegeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="414">
+              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -107,7 +116,6 @@
         <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/index-breed.php" />
         <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/update-breed.php" />
         <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/delete-breed.php" />
-        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/index.php" />
         <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/delete.php" />
         <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations.php" />
         <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/public/css/style.css" />
@@ -116,21 +124,24 @@
         <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/reservations.php" />
         <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/update.php" />
         <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/templates/header.php" />
-        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/index-reservations.php" />
         <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/update-reservation.php" />
         <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/delete-reservation.php" />
         <option value="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/templates/header.php" />
         <option value="$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/controller/EmployeeController.php" />
-        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/create.php" />
         <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/breeds/create-breed.php" />
-        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/model/ManegeModel.php" />
         <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ManegeController.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/create.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/index.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/model/ManegeModel.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/config.php" />
+        <option value="$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/index-reservations.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="954" />
+    <option name="x" value="702" />
+    <option name="y" value="125" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -140,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,61 +163,6 @@
               <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
               <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
               <item name="LABS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
-              <item name="LABS" type="462c0819:PsiDirectoryNode" />
-              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
-              <item name="LABS" type="462c0819:PsiDirectoryNode" />
-              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
-              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
-              <item name="LABS" type="462c0819:PsiDirectoryNode" />
-              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
-              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
-              <item name="LABS" type="462c0819:PsiDirectoryNode" />
-              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
-              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
-              <item name="LABS" type="462c0819:PsiDirectoryNode" />
-              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
-              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
-              <item name="LABS" type="462c0819:PsiDirectoryNode" />
-              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
-              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="employee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J1B4W1" type="462c0819:PsiDirectoryNode" />
-              <item name="LABS" type="462c0819:PsiDirectoryNode" />
-              <item name="LAB 1" type="462c0819:PsiDirectoryNode" />
-              <item name="medewerkers_in_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="J1B4W1" type="b2602c69:ProjectViewProjectNode" />
@@ -330,12 +287,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/School/DVC Gorinchem/J1B3W7 - 9" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/School/DVC Gorinchem" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -394,18 +350,19 @@
       <workItem from="1592468532797" duration="4938000" />
       <workItem from="1592519739195" duration="7227000" />
       <workItem from="1592587600960" duration="7387000" />
-      <workItem from="1592684908877" duration="11118000" />
+      <workItem from="1592684908877" duration="11383000" />
+      <workItem from="1592814632575" duration="2866000" />
+      <workItem from="1592995093761" duration="167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70583000" />
+    <option name="totallyTimeSpent" value="73881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988938" visible="true" weight="0.20824412" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988938" visible="true" weight="0.21359743" />
       <window_info id="Structure" order="1" sideWeight="0.5011062" side_tool="true" weight="0.20770878" />
       <window_info id="Favorites" order="2" sideWeight="0.5011062" side_tool="true" weight="0.20770878" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -534,20 +491,6 @@
         <state relative-caret-position="-484" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" lean-forward="true" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/model/EmployeeModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -593,34 +536,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/index-reservations.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="194" selection-start-line="26" selection-start-column="194" selection-end-line="26" selection-end-column="194" />
-          <folding>
-            <element signature="e#4#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2682">
           <caret line="149" column="18" selection-start-line="149" selection-start-column="18" selection-end-line="149" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/templates/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/delete-reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -633,13 +552,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/core.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/route.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -683,24 +595,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/create.php">
+    <entry file="file://$PROJECT_DIR$/LABS/LAB 1/medewerkers_in_mvc/view/employee/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ManegeController.php">
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/delete-reservation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="342">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/model/ManegeModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1798">
-          <caret line="598" column="11" selection-start-line="598" selection-start-column="11" selection-end-line="598" selection-end-column="11" />
+        <state relative-caret-position="9252">
+          <caret line="514" column="1" selection-start-line="514" selection-start-column="1" selection-end-line="514" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/core/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/horses/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/controller/ManegeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manege/medewerkers_in_mvc/view/manege/pages/reservations/index-reservations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#4#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

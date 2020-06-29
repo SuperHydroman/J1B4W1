@@ -1,9 +1,7 @@
 <h1>Overzicht van de rassen</h1>
 <?php
 
-$amount = countBreeds();
-
-if ($amount['Breeds'] > 0) {
+if (count($data) > 0) {
     echo '<table>',
     '<tr>',
     '<th>Rasnaam</th>',

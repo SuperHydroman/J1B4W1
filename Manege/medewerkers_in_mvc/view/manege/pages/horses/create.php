@@ -1,6 +1,3 @@
-<?php
-$types = getAllTypes();
-?>
 <h1>Voeg een paard toe</h1>
 <form name="create" method="post" action="<?= htmlspecialchars("store")?>">
     <label for="name">Naam:</label>
@@ -13,7 +10,7 @@ $types = getAllTypes();
         <option selected>------ Please select a type ------</option>
         <?php
 
-        foreach($types as $key) {
+        foreach($data['types'] as $key) {
             echo '<option value="'.$key['type'].'">'.$key['type'].'</option>';
         }
 
@@ -32,7 +29,7 @@ $types = getAllTypes();
         <option selected>----- Please select a breed -----</option>
         <?php
 
-        foreach($data as $key) {
+        foreach($data['breeds'] as $key) {
             echo '<option value="'.$key['name'].'">'.$key['name'].'</option>';
         }
 

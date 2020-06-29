@@ -14,9 +14,10 @@ function index(){
 }
 
 function create(){
+    $types = getAllTypes();
     $breeds = getAllBreeds();
 
-    render('manege/pages/horses/create', $breeds);
+    render('manege/pages/horses/create', ['breeds' => $breeds, 'types' => $types]);
 }
 
 function store(){
@@ -40,12 +41,14 @@ function store(){
 
 function edit($id){
     $horse = getHorse($id);
+    $types = getAllTypes();
+    $breeds = getAllBreeds();
 
-    render('manege/pages/horses/update', $horse);
+    render('manege/pages/horses/update', ['horse' => $horse, 'types' => $types, 'breeds' => $breeds]);
 }
 
 function update(){
-    $data = validation($_POST, $result, $err);
+    $data = validation($_POST, $result, $err, $uniqueName);
 
     if ($result == true) {
         echo "Succesfully updated!";
@@ -257,8 +260,10 @@ function reservations_store(){
 
 function reservations_edit($id) {
     $reservation = getReservation($id);
+    $users = getAllUsers();
+    $horses = getAllHorses();
 
-    render("manege/pages/reservations/update-reservation", $reservation);
+    render("manege/pages/reservations/update-reservation", ['reservation' => $reservation, 'users' => $users, 'horses' => $horses]);
 }
 
 function reservations_update(){
@@ -267,7 +272,9 @@ function reservations_update(){
     if ($result == true) {
         echo "Succesfully updated!";
 
-        createReservation($_POST);
+        var_dump($data);
+
+        updateReservation($data);
         header("refresh:3;url=reservations_index");
     }
     else {
